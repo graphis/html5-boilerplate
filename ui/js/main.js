@@ -4,3 +4,11 @@ $(document).ready(function() {
   $('html').removeClass('no-js');
 
 });
+
+
+
+
+
+clearTimeout(hasjsrm);
+$('body').addClass('has-js');
+

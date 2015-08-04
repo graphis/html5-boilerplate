@@ -9,7 +9,7 @@
 	<!-- Meta -->
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-	<title></title>
+	<title>___title___</title>
 
 	<!-- CSS -->
 	<link href="ui/css/normalize.css" rel="stylesheet" />
@@ -20,11 +20,16 @@
 </head>
 
 <body>
+<script>
+document.body.className+=' has-js';
+var hasjsrm=setTimeout(function(){document.body.className=document.body.className.replace(' has-js','')},5000);
+</script>
 
 
 
-
-
+<div id="test">
+	test div
+</div>
 
 
 <!-- JS -->
