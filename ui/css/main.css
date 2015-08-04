@@ -12,5 +12,50 @@ body {
 }
 
 
+.transparent {
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+  /* Netscape */
+  -moz-opacity: 0.0;
+  /* Safari 1.x */
+  -khtml-opacity: 0.0;
+  /* Good browsers */
+  opacity: 0.0;
+}
 
 
+.aha {
+	width: 400px;
+	height: 200px;
+	background: #CCFFCC;
+	float:left;
+}
+
+
+
+
+#kb-container {
+	background: #CCFFCF;
+	width: 600px;
+	height: 300px;
+}
+
+#kb-container2 {
+	background: #CCFFFF;
+	width: 300px;
+	height: 300px;
+}
+
+#kb-container3 {
+	background: #CCCFCF;
+	width: 300px;
+	height: 200px;
+}
+
+#kb-container4 {
+	background: #FFCFCF;
+	width: 300px;
+	height: 100px;
+}
